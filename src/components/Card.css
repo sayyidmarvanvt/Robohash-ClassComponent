@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 1.5rem;
+
+}
+
+.eachcard{
+    width: 15rem;
+    height: 12rem;
+    background-color: rgb(28, 28, 25);
+    color: rgb(144, 200, 34); 
+    border-radius: 1rem;
+    transition: all 0.3s;
+    box-shadow: 2px 2px 5px rgb(50, 49, 49);
+}
+.eachcard:hover{
+    transform: scale(1.06);
+}
+img{
+   width: 100px;
+   height: 100px;
+}
+h2{
+   font-size: 1rem; 
+}
